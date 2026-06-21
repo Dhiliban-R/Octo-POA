@@ -8,22 +8,22 @@ A unified CLI-agnostic platform for AI coding agents with planning, execution, m
 
 ### Core Modules
 
-| Module | What It Does | Source Inspiration |
-|--------|--------------|-------------------|
-| **Planning** | Spec-Driven Development workflow | spec-kit |
-| **Execution** | Output compression + YAGNI code generation | caveman + ponytail |
-| **Memory** | Persistent cross-session memory | claude-mem-lite + agentmemory + graphiti |
-| **Knowledge** | AST parsing + knowledge graph | graphify + headroom |
-| **Workflow** | 4-phase execution gates | Custom |
+| Module | What It Does |
+|--------|--------------|
+| **Planning** | Spec-Driven Development workflow with constitutional principles |
+| **Execution** | Output compression and YAGNI code generation |
+| **Memory** | Persistent cross-session memory with hybrid search |
+| **Knowledge** | AST parsing and knowledge graph construction |
+| **Workflow** | 4-phase execution gates with quality enforcement |
 
 ### Gateway Layer
 
-Connect to external tools:
+Connect to external tools and services:
 
-- **9router** — LLM routing (40+ providers)
-- **n8n** — Workflow automation (400+ integrations)
-- **crewAI** — Multi-agent orchestration
-- **openclaw** — Personal assistant (24+ platforms)
+- **LLM Routing** — Multi-provider routing with fallback chains
+- **Workflow Automation** — Trigger external workflows and automations
+- **Multi-Agent Orchestration** — Coordinate multiple AI agents
+- **Personal Assistant** — Connect to messaging platforms and channels
 
 ### Agent Adapters
 
@@ -99,7 +99,7 @@ octo install claude
 
 | Command | Description |
 |---------|-------------|
-| `octo compress <text>` | Compress output (caveman-style) |
+| `octo compress <text>` | Compress output text |
 | `octo yagni <code>` | Evaluate YAGNI ladder |
 
 ### Memory
@@ -261,8 +261,8 @@ octo-poa/
 
 ```bash
 # Clone repository
-git clone https://github.com/dhili/octo-poa.git
-cd octo-poa
+git clone https://github.com/Dhiliban-R/Octo-POA.git
+cd Octo-POA
 
 # Install dependencies
 npm install
@@ -277,20 +277,3 @@ npm run dev
 ## License
 
 MIT
-
-## Acknowledgments
-
-Built with patterns from:
-
-- **spec-kit** — Spec-Driven Development
-- **caveman** — Output compression
-- **ponytail** — YAGNI code generation
-- **claude-mem-lite** — Persistent memory
-- **agentmemory** — Memory engine
-- **graphiti** — Temporal context graph
-- **graphify** — Knowledge graph
-- **headroom** — Context compression
-- **9router** — LLM routing
-- **n8n** — Workflow automation
-- **crewAI** — Multi-agent orchestration
-- **openclaw** — Personal assistant

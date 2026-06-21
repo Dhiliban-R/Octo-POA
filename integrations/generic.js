@@ -27,7 +27,7 @@ class GenericAdapter {
 - \`octo plan <feature>\` - Create implementation plan
 
 ### Execution
-- \`octo compress <text>\` - Compress output (caveman-style)
+- \`octo compress <text>\` - Compress output text
 - \`octo yagni <code>\` - Evaluate YAGNI ladder
 
 ### Memory

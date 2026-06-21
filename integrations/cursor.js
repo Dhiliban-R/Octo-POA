@@ -53,8 +53,8 @@ class CursorAdapter {
 
 ## Gateway Integration
 - Check external tools: \`octo gateway-status\`
-- Route complex workflows to n8n
-- Use crewAI for multi-agent tasks
+- Route complex workflows to automation
+- Use multi-agent orchestration for complex tasks
 `;
 
     fs.writeFileSync(

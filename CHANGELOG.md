@@ -136,31 +136,6 @@ All notable changes to Octo-POA will be documented in this file.
 
 ### Planned
 
-#### Research & Integration (2026-06-20)
-- **Graphify Integration** - Knowledge graph for codebases
-  - Source: github.com/safishamsi/graphify (69.8k stars)
-  - Tree-sitter AST parsing for 36+ languages
-  - Leiden community detection for clustering
-  - Confidence tags: EXTRACTED, INFERRED, AMBIGUOUS
-  - Query: `graphify query "what connects X to Y?"`
-  - Auto-rebuild on git commit via hooks
-  - Obsidian vault export support
-  
-- **Headroom Integration** - Token compression (60-95% reduction)
-  - Source: github.com/chopratejas/headroom (41.2k stars)
-  - 6 algorithms: SmartCrusher, CodeCompressor, Kompress-base, CacheAligner, CCR, IntelligentContext
-  - Proxy mode: zero code changes
-  - Cross-agent memory sharing
-  - `headroom learn` for failure mining
-  - Output token reduction (not just input)
-  
-- **Ponytail Integration** - Minimal code generation
-  - Source: github.com/DietrichGebert/ponytail (42.5k stars)
-  - YAGNI-first approach: "Does this need to exist?"
-  - Ladder: stdlib → native platform → installed dependency → one line → minimum
-  - ~54% less code, ~20% cheaper, ~27% faster
-  - Safety preserved: validation, security, accessibility never cut
-
 #### Architecture Enhancements
 - MCP server with 20+ tools (planning, execution, memory, knowledge, gateway, workflow)
 - Headless proxy mode  

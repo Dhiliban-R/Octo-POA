@@ -45,7 +45,7 @@ prompt = "Describe the feature you want to build. Octo-POA will create a structu
 [[commands]]
 name = "compress"
 description = "Compress output"
-prompt = "Enable caveman-style output compression for token savings."
+prompt = "Enable output compression for token savings."
 
 [[commands]]
 name = "memory"

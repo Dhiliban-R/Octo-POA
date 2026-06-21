@@ -61,7 +61,7 @@ class MCPServer {
       // Execution Tools
       {
         name: 'octo_compress',
-        description: 'Compress output text (caveman-style)',
+        description: 'Compress output text',
         inputSchema: {
           type: 'object',
           properties: {

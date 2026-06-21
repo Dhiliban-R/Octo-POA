@@ -37,7 +37,7 @@ Run \`octo plan-constitution\` to create your project's 9 Articles of Developmen
 Describe the feature you want to build. Octo-POA will create a structured specification with user stories, requirements, and success criteria.`,
 
       'octo-compress.md': `# Compress Output
-Enable caveman-style output compression. Use \`/octo-compress [lite|full|ultra]\` to set level.`,
+Enable output compression. Use \`/octo-compress [lite|full|ultra]\` to set level.`,
 
       'octo-memory.md': `# Memory Commands
 - \`/octo-memory remember <observation>\` - Store observation
