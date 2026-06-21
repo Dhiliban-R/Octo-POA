@@ -1,6 +1,12 @@
-# Octo-POA
+<p align="center">
+  <img src="logo.svg" alt="Octo-POA Logo" width="200" height="200">
+</p>
 
-**Parallel Operating Agent - Octopus**
+<h1 align="center">Octo-POA</h1>
+
+<p align="center">
+  <strong>Parallel Operating Agent - Octopus</strong>
+</p>
 
 A unified CLI-agnostic platform for AI coding agents with planning, execution, memory, knowledge, and gateway integration.
 
