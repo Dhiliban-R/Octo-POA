@@ -38,3 +38,4 @@ tasks/
 .cache/
 .temp/
 /tmp/
+*.tgz
