@@ -1,0 +1,69 @@
+{
+  "name": "octo-poa",
+  "version": "0.1.0",
+  "description": "Parallel Operating Agent - Unified platform for AI coding agents with planning, execution, memory, knowledge, and gateway",
+  "main": "lib/core/engine.js",
+  "bin": {
+    "octo": "./bin/octo.js",
+    "octo-mcp": "./bin/mcp-server.js"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "mcp/",
+    "integrations/",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node tests/integration.js",
+    "test:unit": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint lib/ bin/",
+    "format": "prettier --write 'lib/**/*.js' 'bin/**/*.js'",
+    "dev": "node bin/octo.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "orchestration",
+    "planning",
+    "memory",
+    "knowledge-graph",
+    "token-optimization",
+    "coding",
+    "cli",
+    "mcp",
+    "workflow",
+    "execution",
+    "gateway"
+  ],
+  "author": "dhili",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhili/octo-poa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dhili/octo-poa/issues"
+  },
+  "homepage": "https://github.com/dhili/octo-poa#readme",
+  "dependencies": {
+    "better-sqlite3": "^11.0.0",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  },
+  "optionalDependencies": {
+    "chalk": "^5.0.0",
+    "ora": "^8.0.0",
+    "inquirer": "^9.0.0"
+  }
+}
