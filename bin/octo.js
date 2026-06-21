@@ -313,7 +313,7 @@ program
     await engine.init();
     const workflow = await engine.getWorkflow();
     await workflow.addTodoItem(workflowId, options.phase, item);
-    console.log(chalk.green(`✓ Added todo item`));
+    console.log(chalk.green('✓ Added todo item'));
     engine.close();
   });
 
@@ -325,7 +325,7 @@ program
     await engine.init();
     const workflow = await engine.getWorkflow();
     await workflow.updateSteps(workflowId, section, content);
-    console.log(chalk.green(`✓ Updated steps.md`));
+    console.log(chalk.green('✓ Updated steps.md'));
     engine.close();
   });
 
